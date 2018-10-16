@@ -22,10 +22,12 @@ print(configlist)
 for x in configlist:
     print(x)
 
+# remove new extra lines
 for x in configlist:
     print(x, end='')
  #   print(x.strip())
 
+# remove whitespace 
 for x in configlist:
 #    print(x, end='')
     print(x.strip())
