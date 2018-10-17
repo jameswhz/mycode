@@ -11,8 +11,8 @@ def ipRequest(ipAddress):
 
 count = 0
 while 1:
-  ipAddress = input("please enter IP address you want(max 3 in total): ")
-  count = count + 1
+  ipAddress = input("please enter IP address you want(max 3 tries in total): ")
+  count += 1
   print(count)
   if count > 3:
     print("Max total is 3 each time, no more request will be accepted!")
